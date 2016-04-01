@@ -1,4 +1,8 @@
-Demonstrates logging shutdown by Server created via Server.withRouter(). Change the first `it` to `ignore`, and notice the subsequent logs appear.
+Demonstrates logging shutdown by Server created via Server.withRouter(). 
+Edit [test/ServerTest.scala](test/ServerTest.scala), changing the first `it` to `ignore`, and notice the subsequent logs appear.
+
+See also
+[Server.scala](https://github.com/playframework/playframework/blob/440be28c9598d4ff0957cda1367803f95f4c50a0/framework/src/play-server/src/main/scala/play/core/server/Server.scala#L71-L75)
 
 
 ## Before
