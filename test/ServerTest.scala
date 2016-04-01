@@ -9,7 +9,7 @@ import com.typesafe.scalalogging.StrictLogging
 class ServerTest extends FunSpec with StrictLogging {
 
   describe("WSTestClient") {
-    ignore("should work with Server.withRouter() and print log1") {
+    it("should work with Server.withRouter() and print log1") {
       logger.error("log1")
       Server.withRouter() {
         case _ => Action {
